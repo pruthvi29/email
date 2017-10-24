@@ -1,0 +1,699 @@
+body {
+    margin: 0px;
+  
+}
+  
+/*main relative image*/
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+    
+/* nav bar services */
+.services {
+    position: absolute;
+    top: 62px;
+    right: 237px;
+    	width: 103px;
+	height: 27px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 20px;
+	font-weight: 500;
+	color: #ffffff;
+}
+
+/* fintas logo */
+.logo {
+    position: absolute;
+    top: 53px;
+    left: 91px;
+    width: 140px;
+	height: 49px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 36px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	color: #ffffff;
+}
+
+/* nav bar team */
+.team {
+    position: absolute;
+    top: 62px;
+    right: 378px;
+   	width: 71px;
+	height: 27px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 20px;
+	font-weight: 500;
+	color: #ffffff;
+}
+
+/* contact us button */
+
+.contactusbutton {
+    
+    position: absolute;
+    top: 47px;
+    right: 69px;
+    width: 140px;
+	height: 50px;
+	object-fit: contain;
+	opacity: 0.5;
+	border-radius: 8px;
+	background-color: #ffffff;
+	border: solid 0 #979797;
+}
+
+    .contactus {
+      position: absolute;
+    top: 59px;
+    right: 89px; 
+      width: 103px;
+	height: 27px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 20px;
+	font-weight: 500;
+	color: #ffffff;
+    }
+
+/* main image text */
+
+.centered {
+    position: absolute;
+    top: 559px;
+    right: 320px;
+    transform: translate(-50%, -50%);
+    width: 670px;
+	height: 323px;
+	object-fit: contain;
+	font-family: Avenir;
+    text-align: left;
+}
+    
+    .header {
+		
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 30px;
+	font-weight: 900;
+	color: #ffffff;
+}
+
+.text-style-1 {
+		
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 24px;
+	font-weight: 50;
+	color: #ffffff;
+}
+
+.text-style-2 {
+	
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 20px;
+	font-weight: 500;
+	color: #ffffff;
+}
+
+/*meeting button*/
+
+    .schedulemeetingbutton {
+            position: absolute;
+    top: 751px;
+    left:105px;
+	width: 292px;
+	height: 55px;
+	object-fit: contain;
+	border-radius: 8px;
+	background-color: #2dc76f;
+	border: solid 0 #979797;
+}
+  .schedule-a-meeting {
+      position: absolute;
+    top: 765px;
+    left:145px;
+	width: 226px;
+	height: 27px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 20px;
+	font-weight: 500;
+	color: #ffffff;
+}
+
+/*differentiators section*/
+
+
+
+/*gradient background*/
+
+    .rectangle-copy {
+	width: 1440px;
+	height: 514px;
+	object-fit: contain;
+	opacity: 0.4;
+	background-image: linear-gradient(to top, #f5fbff, #b2e2ff);
+	border: solid 0 #979797;
+}
+
+    .differentiators {
+        position: absolute;
+        top: 1017px;
+        left:91px;
+	width: 292px;
+	height: 41px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 30px;
+	font-weight: 900;
+	letter-spacing: 1px;
+	color: #3b7adb;
+}
+
+    .content1 {
+        position: absolute;
+        top: 1141px;
+        left: 99px;
+        text-align: left;
+	width: 265px;
+	height: 126px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 24px;
+	font-weight: 500;
+	color: #3f3f3f;
+}
+    .content2{
+            position: absolute;
+        top: 1141px;
+        left: 510px;
+        text-align: left;
+	width: 265px;
+	height: 126px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 24px;
+	font-weight: 500;
+	color: #3f3f3f;
+    }
+    .content3{
+            position: absolute;
+        top: 1141px;
+        left: 991px;
+        text-align: left;
+	width: 265px;
+	height: 126px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 24px;
+	font-weight: 500;
+	color: #3f3f3f;
+    }
+
+
+/*practice/service/project area image */
+
+    .imgContainer{
+    float:left;
+        box-sizing: inherit;}
+
+
+
+/*practice areas section*/
+
+
+    .practiceareas {
+         position: absolute;
+        top: 1554px;
+        left: 91px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 30px;
+	font-weight: 900;
+	letter-spacing: 1px;
+	color: #3b7adb;
+}
+    .practicecontent {
+	 position: absolute;
+        top: 1637px;
+        left: 91px;
+        text-align: left;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 24px;
+	font-weight: 500;
+	color: #515151;
+}
+    
+/*service areas section*/
+
+
+        .servicecoverage {
+         position: absolute;
+        top: 2083px;
+        left: 845px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 30px;
+	font-weight: 900;
+	letter-spacing: 1px;
+	color: #3b7adb;
+}
+    .servicecontent {
+	 position: absolute;
+        top: 2151px;
+        left: 824px;
+        text-align: left;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 24px;
+	font-weight: 500;
+	color: #515151;
+}
+
+/*project area section */
+
+    
+        .projectservices {
+         position: absolute;
+        top: 2694px;
+        left: 99px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 30px;
+	font-weight: 900;
+	letter-spacing: 1px;
+	color: #3b7adb;
+}
+    .projectcontent {
+	 position: absolute;
+        top: 2777px;
+        left: 99px;
+        text-align: left;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 24px;
+	font-weight: 500;
+	color: #515151;
+}
+
+/*gradient background*/
+
+    
+    .rectangle-copy2 {
+	width: 1440px;
+	height: 730px;
+	object-fit: contain;
+	opacity: 0.4;
+	background-image: linear-gradient(to top, #f5fbff, #b2e2ff);
+	border: solid 0 #979797;
+}
+
+/*main text*/
+    
+     .expectations {
+        position: absolute;
+        top: 3179px;
+        left:91px;
+	width: 500px;
+	height: 41px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 30px;
+	font-weight: 900;
+	letter-spacing: 1px;
+	color: #3b7adb;
+}
+    
+    .experience {
+        position: absolute;
+        top: 3328px;
+        left: 91px;
+        text-align: left;
+	width: 665px;
+	height: 126px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 26px;
+	font-weight: 500;
+	color: #3f3f3f;
+    }
+    
+         .experiencecontent {
+        position: absolute;
+        top: 3378px;
+        left: 91px;
+        text-align: left;
+	width: 265px;
+	height: 126px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 24px;
+	font-weight: 300;
+	color: #3f3f3f;
+}
+        
+        .execution {
+        position: absolute;
+        top: 3328px;
+        left: 455px;
+        text-align: left;
+	width: 265px;
+	height: 126px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 26px;
+	font-weight: 500;
+	color: #3f3f3f;
+    }
+    
+    .executioncontent {
+        position: absolute;
+        top: 3378px;
+        left: 455px;
+        text-align: left;
+	width: 265px;
+	height: 126px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 24px;
+	font-weight: 300;
+	color: #3f3f3f;
+}
+    
+            .commitment {
+        position: absolute;
+        top: 3328px;
+        left: 797px;
+        text-align: left;
+	width: 265px;
+	height: 126px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 26px;
+	font-weight: 500;
+	color: #3f3f3f;
+    }
+    
+      .commitmentcontent{
+            position: absolute;
+        top: 3378px;
+        left: 797px;
+        text-align: left;
+	width: 265px;
+	height: 126px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 24px;
+	font-weight: 300;
+	color: #3f3f3f;
+    }
+    
+    
+                .results {
+        position: absolute;
+        top: 3328px;
+        left: 1143px;
+        text-align: left;
+	width: 265px;
+	height: 126px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 26px;
+	font-weight: 500;
+	color: #3f3f3f;
+    }
+    
+  
+    .resultscontent{
+            position: absolute;
+        top: 3378px;
+        left: 1143px;
+        text-align: left;
+	width: 265px;
+	height: 126px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 24px;
+	font-weight: 300;
+	color: #3f3f3f;
+    }
+    
+
+/*case study section*/
+
+
+    .casestudybutton {
+       position: absolute;
+        top: 3897px;
+        left: 465px; 
+	width: 510.7px;
+	height: 55px;
+	object-fit: contain;
+	border-radius: 8px;
+	background-color: #2dc76f;
+}
+    
+        
+        .casestudy {
+            position: absolute;
+        top: 3912px;
+        left: 543px;
+	width: 365.3px;
+	height: 27px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 20px;
+	font-weight: 300;
+	color: #ffffff;
+}
+
+    .bbva-compasslogo{
+        position: absolute;
+        top: 4070px;
+        left: 91px; 
+        width: 304px;
+	height: 86px;
+    }
+    
+    .visaimage {
+        position: absolute;
+        top: 4070px;
+        left: 559px;
+	width: 202px;
+	height: 86px;
+	object-fit: contain;
+}
+    .paykeyimage {
+         position: absolute;
+        top: 4070px;
+        left: 1083px;
+	width: 260px;
+	height: 80px;
+	object-fit: contain;
+}
+    
+    .rectangle-copy-3 {
+	  width: 1440px;
+	height: 714px;
+	object-fit: contain;
+	opacity: 0.4;
+	background-image: linear-gradient(to top, #f5fbff, #b2e2ff);
+	border: solid 0 #979797;
+    
+}
+
+/*schedule a meeting section*/
+       .schedulemeeting {
+        position: absolute;
+        top: 4310px;
+        left:553px;
+	width: 492px;
+	height: 41px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	color: #3b7adb;
+}
+    .rectangle-2-copy-2 {
+        position: absolute;
+        top: 4710px;
+        left:579px;
+	width: 292px;
+	height: 55px;
+	object-fit: contain;
+	border-radius: 8px;
+	background-color: #2dc76f;
+	border: solid 0 #979797;
+}
+
+/*fintas footer section*/
+
+
+footer {
+    padding-bottom: 400px;
+}
+
+
+  .fintasfooter {
+      position: absolute;
+        top: 4820px;
+        left:91px;
+	width: 140px;
+	height: 49px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 36px;
+	font-weight: 900;
+	letter-spacing: 1px;
+	color: #00136e;
+}
+    
+    .footerstatement {
+        position: absolute;
+        top: 4890px;
+        left:91px;
+	width: 300px;
+	height: 65px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 0.8px;
+	color: #a7a7a7;
+}
+     .copyright{
+         position: absolute;
+        top: 5100px;
+        left:91px;
+	width: 327px;
+	height: 19px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 14px;
+	font-weight: 500;
+	color: #a4a4a4;
+}
+          
+.fintasteam {
+         position: absolute;
+        top: 4850px;
+        left:610px;
+	width: 140px;
+	height: 27px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 20px;
+	font-weight: 500;
+	color: #a4a4a4;
+}
+        
+        .fintasteamcontent {
+         position: absolute;
+        top: 4900px;
+        left:630px;
+	width: 140px;
+	height: 19px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 14px;
+	font-weight: 500;
+	color: #a4a4a4;
+}
+        
+        .termsandconditions {
+         position: absolute;
+        top: 4850px;
+        left:837px;
+	width: 202px;
+	height: 27px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 20px;
+	font-weight: 500;
+	color: #a4a4a4;
+}
+        
+        .privacypolicy {
+         position: absolute;
+        top: 4900px;
+        left:885px;
+	width: 103px;
+	height: 19px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 14px;
+	font-weight: 500;
+	color: #a4a4a4;
+}
+        
+        .Infofintas {
+         position: absolute;
+        top: 4850px;
+        left:1130px;
+	width: 202px;
+	height: 27px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 20px;
+	font-weight: 500;
+	color: #a4a4a4;
+}
+        .fintasskype{
+         position: absolute;
+        top: 4900px;
+        left:1128px;
+	width: 202px;
+	height: 27px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 20px;
+	font-weight: 500;
+	color: #a4a4a4;
+}
+        
+        .phonenumber {
+         position: absolute;
+        top: 4950px;
+        left:1127px;
+	width: 202px;
+	height: 27px;
+	object-fit: contain;
+	font-family: Avenir;
+	font-size: 20px;
+	font-weight: 500;
+	color: #a4a4a4;
+}
+
+.skypeicon {
+    position: absolute;
+        top: 4980px;
+        left:99px;
+    width: 45px;
+	height: 45px;
+	object-fit: contain;
+
+}
+
+.linkedinicon {
+     position: absolute;
+        top: 4980px;
+        left:200px;
+    width: 50px;
+	height: 50px;
+	object-fit: contain;
+}
+
+
+

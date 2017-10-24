@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>Mail</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script><script>
+$(document).ready(function(){
+			$("#submit").click(function(){
+				var name = $("#your_name").val();
+				var company = $("#company").val();
+				var email = $("#email").val();
+				var phone = $("#phone").val();
+				var message = $("#messageInfo").val();
+				var varData = 'name='+name+'&company='+company+'&email='+email+'&phone='+phone+'&message='+message;
+	$("#message").text("Sending E-mail...Please wait");
+    $.get("http://localhost:3000/send",{to:email,subject:"Subject Here ",text:name+"\n\n"+company+"\n\n"+email+"\n\n"+phone+"\n\n"+message},function(data){
+        	//console.log(res);
+        //	var data = "sent"
+		        if(data=="sent")
+		        {
+		            $("#message").empty().html("Email is been sent at "+email+" . Please check inbox!");
+		        }
+			});
+			
+		});
+		});
+</script>
+</head>
+<body>
+<div class="container">
+<div id="message"></div>
+		<form class="form-horizontal">
+		  <div class="form-group">
+		     <div class="col-sm-10">
+		      <input type="text" class="form-control" id="your_name" placeholder="Your Name">
+		    </div>
+		  </div>
+		  <div class="form-group">
+		   <div class="col-sm-10">
+		      <input type="text" class="form-control" id="company" placeholder="Company">
+		    </div>
+		  </div>
+		  <div class="form-group">
+		   <div class="col-sm-10">
+		      <input type="email" class="form-control" id="email" placeholder="Email">
+		    </div>
+		  </div>
+
+		  <div class="form-group">
+		   <div class="col-sm-10">
+		      <input type="phone" class="form-control" id="phone" placeholder="Phone Number">
+		    </div>
+		  </div>
+
+		  		  <div class="form-group">
+		   <div class="col-sm-10">
+		      <input type="phone" class="form-control" id="messageInfo" placeholder="Message">
+		    </div>
+		  </div>
+		  <input type="button" name="Submit" value="Submit" class="btn btn-primary" id="submit"/>
+		  </form>
+	</div>
+</body>
+</html>

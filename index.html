@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>fintas</title>
+<link rel="stylesheet" href="/fintas.css">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script><script>
+$(document).ready(function(){
+			$("#submit").click(function(){
+				var name = $("#your_name").val();
+				var company = $("#company").val();
+				var email = $("#email").val();
+				var phone = $("#phone").val();
+				var message = $("#messageInfo").val();
+				var varData = 'name='+name+'&company='+company+'&email='+email+'&phone='+phone+'&message='+message;
+	$("#message").text("Sending E-mail...Please wait");
+    $.get("http://localhost:3000/send",{to:email,subject:"Subject Here ",text:name+"\n\n"+company+"\n\n"+email+"\n\n"+phone+"\n\n"+message},function(data){
+        	//console.log(res);
+        //	var data = "sent"
+		        if(data=="sent")
+		        {
+                    $("#message").empty().html("Email is been sent at "+email+" . Please check inbox!");
+                                $("input:not('#submit')").val("");
+		        }
+			});
+			
+		});
+		});
+</script>
+
+
+    </head>
+    
+    <body>
+        
+  <!--main fintas image cover-->   
+        
+<div class="container">
+  
+    <img src="/images/mainimage.png" alt="Fintas" style="width:1440px;" "height: 969px;">
+  
+    <div class="logo">FINTAS</div>
+    
+    <div class="services">Services</div>
+  
+  <div class="team">Team</div>
+  
+    <div class="contactusbutton">
+      
+        <img src="/images/contactusbutton.png"></div>
+    
+    <div class="contactus"> Contact Us</div>
+    
+  <div class="centered">
+      
+      <div class="header">
+       FinTech Advisory Services<br>
+      </div>
+      
+      <div class="text-style-1">
+      FINTAS is an independent consulting firm focused on the Financial technologies industry Segment.
+      </div>
+      
+<div class="text-style-2">
+    
+    <br>
+We offer bespoke business strategy consulting and technology consulting services to a diverse client base that include Financial Institutions, Processors, Card Networks, Retailers, Prepaid providers, M-Commerce specialists and payment technology and business service providers. 
+We serve the world’s leading FinTech companies as well as early-stage enterprises. Our support ranges from strategic advisory services to tactical project services.
+    
+ </div>
+        </div>
+        </div>
+          
+        
+            <!-- Mail Info end -->
+             <img src="/images/greenbutton.png"
+		 class="schedulemeetingbutton" >
+                
+        <div class="schedule-a-meeting">
+        SCHEDULE A MEETING
+        </div>
+        
+        <img src="/images/gradientimage.png"
+		 class="rectangle-copy">
+        
+        <div class="differentiators">
+            DIFFERENTIATORS</div>
+        
+        <div class="content1">
+            Singular focus 
+On the FinTech segment. Our support ranges from strategic advisory services to tactical project services.
+        </div>
+        <div class="content2">
+           Experience Practitioners with 15+ years of deep domain experience in Product Management & Technology management roles.
+        </div>
+        
+        <div class="content3">
+            Flexible engagement models to meet the need for speed while keeping budget considerations in mind.
+        </div>
+        
+        
+        
+        
+        
+        
+        
+    <div class="imgContainer">
+        <img src="/images/rectangle-3-copy@3x.png" height="542px" width="900px">
+    </div>
+            
+        <img class="middle-img" src="/images/practiceareasimage.png" height="542px" width="520px"/>
+        
+        <div class = "practiceareas">
+            PRACTICE AREAS
+        </div>
+        
+        <div class = "practicecontent">
+            
+Consumer Card Issuing – Prepaid / Debit / Credit <br>
+Merchant Acquiring <br>
+Commercial Cards <br>
+Fraud Prevention<br>
+P2P Cross-border Remittance <br>
+Loyalty & Rewards<br>
+Retail Payments<br>
+Mobile and Emerging Payments<br>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+       <div class="imgContainer">
+           
+           <img class="middle-img" src="/images/servicecoverageimage.png" height="542px" width="520px">
+           
+        <img src="/images/rectangle-3-copy@3x.png" height="542px" width="400px">
+    </div>
+            
+       <div class = "servicecoverage">
+SERVICE COVERAGE </div>
+        
+        <div class = "servicecontent">
+            
+   Business Consulting & Advisory <br>
+	Market Research <br>
+	Competitive Assessment <br>
+	RFP Management <br>
+	M&A Assessment<br>
+	Product Development <br>
+	Process Diagnostics <br>
+	Strategic Sourcing <br>
+	Proposal Development <br>
+	Analytics Services <br>
+        </div>
+        
+        
+        
+         <div class="imgContainer">
+        <img src="/images/rectangle-3-copy@3x.png" height="542px" width="900px">
+    </div>
+            
+        <img class="middle-img" src="/images/projectservicesimage.png" height="542px" width="520px"/>
+        
+        <div class = "projectservices">
+PROJECT SERVICES </div>
+        
+        <div class = "projectcontent">
+            
+   Business Architecture <br>
+Business Analysis <br>
+COTS Evaluation/Selection<br>
+Product Management<br>
+Program Management <br>
+Data Analysis <br>
+Process Engineering <br>
+        </div>
+        
+        
+        
+        <img src="/images/gradientimage.png"
+		 class="rectangle-copy2">
+        
+        <div class="expectations">
+            What Clients Expect From Us</div>
+        
+        <div class="experience">
+            Experience </div>
+        <div class="experiencecontent">
+           
+We have extensive domain and real-life knowledge filtered through years of hands on experience. Clients benefit from our singular focus on one industry, wide network of industry contacts, depth of expertise and our ability to offer strategic and tactical recommendations. 
+            
+        </div>
+        
+        
+       <div class="execution">
+            Execution </div>
+        <div class="executioncontent">
+           
+Our passion is execution. Our consultants have served in multi-billion-dollar companies executing and delivering mission critical projects. We know what it means to be in your shoes with ever changing business landscape, increasing technological complexities and regulatory challenges.
+            
+        </div>
+        
+        <div class="commitment">
+            Commitment </div>
+        <div class="commitmentcontent">
+           
+Our goal is to be your trusted partner and we invest in the relationship to demonstrate our commitment to help you succeed.
+            
+        </div>
+        
+             <div class="results">
+            Results </div>
+        <div class="resultscontent">
+           
+We work hard to deliver tangible results to help you achieve your strategic goals, be it revenue growth, cost savings or risk mitigation.
+            
+        </div>
+        
+        <img src="/images/greenbutton.png"
+		 class="casestudybutton">
+        
+        <div class="casestudy">
+        VIEW ENGAGEMENTS/CASE STUDIES </div>
+        
+        <img src="/images/rectangle-3-copy@3x.png" height="400px" width="1440px">
+        
+        <img src="/images/bbvacompassimage.png"
+		 class="bbva-compasslogo">
+        
+        <img src="/images/visaimage.png"
+		 class="visaimage">
+    
+        <img src="/images/paykeyimage.png"
+		 class="paykeyimage">
+        
+ <img src="/images/gradientimage.png"
+		 class="rectangle-copy">
+        
+        <div class="schedulemeeting">
+        SCHEDULE A MEETING
+        </div>
+        
+
+  <!-- Mail Info start -->
+            <div class="container">
+<div id="message"></div>
+		<form class="form-horizontal">
+		  <div class="form-group">
+		     <div class="col-sm-10">
+		      <input type="text" class="form-control" id="your_name" placeholder="Your Name">
+		    </div>
+		  </div>
+		  <div class="form-group">
+		   <div class="col-sm-10">
+		      <input type="text" class="form-control" id="company" placeholder="Company">
+		    </div>
+		  </div>
+		  <div class="form-group">
+		   <div class="col-sm-10">
+		      <input type="email" class="form-control" id="email" placeholder="Email">
+		    </div>
+		  </div>
+
+		  <div class="form-group">
+		   <div class="col-sm-10">
+		      <input type="phone" class="form-control" id="phone" placeholder="Phone Number">
+		    </div>
+		  </div>
+
+		  		  <div class="form-group">
+		   <div class="col-sm-10">
+		      <input type="phone" class="form-control" id="messageInfo" placeholder="Message">
+		    </div>
+		  </div>
+		  <input type="button" name="Submit" value="Submit" class="btn btn-primary" id="submit"/>
+		  </form>
+    </div>
+
+        <img src="/images/greenbutton.png"
+		 class="rectangle-2-copy-2">
+        
+        
+        <footer>
+        
+        <div class="fintasfooter">FINTAS</div>
+        
+        <div class="footerstatement">We serve the world’s leading FinTech companies as well as early-stage enterprises. </div>
+        
+        <div class="copyright">
+        &copy; 2017 Fintas All Rights Reserved<br><br><br>
+        </div>
+        
+        <div class="fintasteam">
+Fintas Team <br><br><br></div>
+        
+        
+         <div class="fintasteamcontent">
+Our Story <br><br>
+        Careers <br><br>
+        Investors <br><br>
+        </div>
+        
+         <div class="termsandconditions">
+Terms and Conditions        </div>
+        
+         <div class="privacypolicy">
+Privacy Policy        </div>
+        
+         <div class="Infofintas">
+Info&#64;fintas.io        </div>
+        
+         <div class="fintasskype">
+Fintas.skype        </div>
+        
+         <div class="phonenumber">
++1 502 994 4136        </div>
+            
+            <img src="/images/skypeicon.png" class="skypeicon">
+            
+             <img src="images/linkedinlogo.png" class="linkedinicon">
+            
+</footer>
+        
+    </body>
+    
+        </html>
