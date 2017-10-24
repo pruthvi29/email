@@ -13,8 +13,8 @@ var smtpTransport = nodemailer.createTransport({
     port: 25, // port for secure SMTP
     host: "smtp.gmail.com",
     auth: {
-        user: "pruthvi29.ui@gmail.com",
-        pass: "083191Nuue"
+        user: "your email",
+        pass: "password"
     },
     tls: {
         rejectUnauthorized: false
